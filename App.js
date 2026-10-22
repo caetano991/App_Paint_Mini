@@ -4,9 +4,9 @@ import { View, Text } from "react-native";
 
 import { AreaDesenho } from "./src/components/AreaDesenho";
 import { PaletaCores } from "./src/components/PaletaCores";
-import { Controles } from "./src/components/Controles";
+import { Controles } from "./src/components/Controle";
 
-import { styles } from "./src/styles/App.styles";
+import { styles } from "./App.styles";
 
 export default function App() {
   const [tracos, setTracos] = useState([]);
